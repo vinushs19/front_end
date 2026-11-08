@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <h1>hellow</h1>
+  <><h1>Nanba Unuku ooru aadhirchi </h1><h2> Now I know basics of frontend also😁.,</h2></>
   )
 }
 

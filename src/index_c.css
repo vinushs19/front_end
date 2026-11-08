@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --text: #d1d5db;
+  --text-h: #ffffff;
+  --bg: #16171d;
+  --border: #2e303a;
+  --accent: #c084fc;
+
+  --sans: 'Redaction 50', sans-serif;
+  --heading: 'Redaction 50', sans-serif;
+  --mono: 'Redaction 50', monospace;
+
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--text);
+  background: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Redaction 50', sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: 1126px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+h1, h2 {
+  font-family: 'Redaction 50', sans-serif;
+  color: var(--text-h);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  letter-spacing: -1px;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+
+p {
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+code, .counter {
+  font-family: 'Redaction 50', monospace;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  #root {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
