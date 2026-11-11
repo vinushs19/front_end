@@ -182,3 +182,16 @@
     border-right-color: var(--border);
   }
 }
+.Try{
+  padding: 15px;
+  border: 1px solid rgb(152,0,153 );
+  margin: 15px;
+}
+.Try_btn{
+  background-color: rgb(153, 0, 153);
+  color: wheat;
+  opacity: 100%;
+}
+.Try_h3{
+  color: bisque;
+}
