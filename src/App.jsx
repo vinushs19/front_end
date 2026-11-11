@@ -6,7 +6,9 @@ import Popup from './comp/Popup.jsx'
 import Calc from './comp/Calcs.jsx'
 function App() {
   const [count, setCount] = useState(0)
-let arg=["Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,","Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,","Hiiii","sneha","1","2","1"]
+let arg=["Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,",
+  "Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,",
+  "Love you","sneha","1","2","1"]
 let i=0;
 let ii=1; 
 const [nanba,setnanba]=useState(arg[0]);
