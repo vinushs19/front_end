@@ -209,3 +209,6 @@
 .s_h3{
   color: bisque;
 }
+html {
+  scroll-behavior: smooth;
+}

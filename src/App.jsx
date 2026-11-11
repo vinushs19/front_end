@@ -43,7 +43,10 @@ return (
      v1="six"
      v2="six_button"
      />
+
      <div className='s'>
+     
+      <a className='s_a' href='#'>
      <h3 className='s_h3'>7</h3>
      <button className='s_btn' onClick={()=>{
       if(one ==arg[0]&&two==arg[1]){
@@ -60,6 +63,7 @@ return (
       
       }
      }}>7th_button</button>
+     </a>
      </div>
   
   
