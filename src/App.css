@@ -195,3 +195,17 @@
 .Try_h3{
   color: bisque;
 }
+
+.s{
+  padding: 15px;
+  border: 1px solid rgb(152,0,153 );
+  margin: 15px;
+}
+.s_btn{
+  background-color: rgb(153, 0, 153);
+  color: wheat;
+  opacity: 100%;
+}
+.s_h3{
+  color: bisque;
+}
