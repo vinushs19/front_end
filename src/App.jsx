@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 let arg=["Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,",
   "Nanba Unuku ooru aadhirchi","Now I know basics of frontend also😁.,",
-  "Love you 💕😍😘😘😍💕","sneha","1","2","1"]
+  "nee aaluthana thu ealu","un vaila poolu.  🤣🤣🤣🤣😂","1","2","1"]
 let i=0;
 let ii=1; 
 const [nanba,setnanba]=useState(arg[0]);
