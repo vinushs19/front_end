@@ -17,6 +17,7 @@ const [sn,setsn]=useState(arg[4]);
 const [ha,setha]=useState(arg[5]);
 const [one,setone]=useState(nanba);
 const [two,settwo]=useState(nanba2);
+const [nanxb,setnanxb]=useState(arg[0]);
 
 return (
   <>
